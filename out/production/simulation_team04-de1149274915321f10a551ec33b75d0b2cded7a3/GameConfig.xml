@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game title = "Cellular Automata" sceneWidthWithBar = "1000" sceneWidth = "800" sceneHeight = "800">
+    <playButton>Play</playButton>
+    <pauseButton>Pause</pauseButton>
+    <stepButton>Skip Forward</stepButton>
+    <speedButton>Speed Up</speedButton>
+    <slowButton>Slow Down</slowButton>
+    <loadButton>Reload</loadButton>
+    <homeButton>Home</homeButton>
+
+    <introLoadFileButton>Load a file to begin</introLoadFileButton>
+</game>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="simulation" type="simulationType"/>
+  <xs:complexType name="colorsType">
+    <xs:all>
+      <xs:element type="xs:string" name="empty"/>
+      <xs:element type="xs:string" name="live"/>
+      <xs:element type="xs:string" name="dead"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="parametersType">
+    <xs:all>
+      <xs:element type="xs:string" name="min_population_threshold"/>
+      <xs:element type="xs:string" name="max_population_threshold"/>
+    </xs:all>
+  </xs:complexType>
+  <xs:complexType name="simulationType" mixed="true">
+    <xs:all>
+      <xs:element type="colorsType" name="colors"/>
+      <xs:element type="xs:string" name="num_rows"/>
+      <xs:element type="xs:string" name="num_columns"/>
+      <xs:element type="xs:string" name="num_neighbors"/>
+      <xs:element type="xs:string" name="neighbor_configuration"/>
+      <xs:element type="parametersType" name="parameters"/>
+      <xs:element type="xs:string" name="initial_rectangular_grid"/>
+    </xs:all>
+    <xs:attribute type="xs:string" name="simulationType"/>
+  </xs:complexType>
+</xs:schema>

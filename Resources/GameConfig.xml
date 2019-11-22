@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game title = "Cellular Automata" sceneWidthWithBar = "1000" sceneWidth = "800" sceneHeight = "800">
+    <title>Cellular Automata</title>
+
+    <scene_width_full>1000</scene_width_full>
+    <scene_width_cells>800</scene_width_cells>
+    <scene_height>800</scene_height>
+
+    <simulation_buttons>
+        <play>Play</play>
+        <pause>Pause</pause>
+        <skip>Skip/forward</skip>
+        <speed>Speed/up</speed>
+        <slow>Slow/down</slow>
+        <reload>Reload</reload>
+        <home>Home</home>
+        <save>Save/XML</save>
+    </simulation_buttons>
+
+    <intro_buttons>
+        <load>Load a file to begin</load>
+    </intro_buttons>
+</game>

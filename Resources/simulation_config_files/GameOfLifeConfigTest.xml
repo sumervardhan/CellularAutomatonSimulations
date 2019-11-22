@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation simulationType = "Game of Life">
+
+    <num_rows>4</num_rows>>
+    <num_columns>4</num_columns>>
+    <num_neighbors>12</num_neighbors>
+
+    <colors>
+        <empty>White</empty>
+        <live>Blue</live>
+        <dead>Yellow</dead>
+    </colors>
+
+    <neighbor_configuration> -1 0 2 0 -1 3 1 0 2</neighbor_configuration>
+
+    <parameters>
+        <min_population_threshold>min_population_threshold:2</min_population_threshold>
+        <max_population_threshold>max_population_threshold:3</max_population_threshold>
+    </parameters>
+
+    <initial_rectangular_grid>
+        0 0 0 0
+        1 2 1 2
+        0 0 0 0
+        1 2 1 2
+    </initial_rectangular_grid>
+</simulation>

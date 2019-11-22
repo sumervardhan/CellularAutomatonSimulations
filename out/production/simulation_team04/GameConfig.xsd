@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="game" type="gameType"/>
+  <xs:complexType name="simulation_buttonsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="play"/>
+      <xs:element type="xs:string" name="pause"/>
+      <xs:element type="xs:string" name="skip"/>
+      <xs:element type="xs:string" name="speed"/>
+      <xs:element type="xs:string" name="slow"/>
+      <xs:element type="xs:string" name="reload"/>
+      <xs:element type="xs:string" name="home"/>
+      <xs:element type="xs:string" name="save"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="intro_buttonsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="load"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="gameType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="title"/>
+      <xs:element type="xs:string" name="scene_width_full"/>
+      <xs:element type="xs:string" name="scene_width_cells"/>
+      <xs:element type="xs:string" name="scene_height"/>
+      <xs:element type="simulation_buttonsType" name="simulation_buttons"/>
+      <xs:element type="intro_buttonsType" name="intro_buttons"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="title"/>
+    <xs:attribute type="xs:string" name="sceneWidthWithBar"/>
+    <xs:attribute type="xs:string" name="sceneWidth"/>
+    <xs:attribute type="xs:string" name="sceneHeight"/>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation simulationType = "Game of Life" Color0 = "White" Color1 = "Blue" Color2 = "Yellow">
+    <num_rows>20</num_rows>>
+    <num_columns>20</num_columns>>
+    <neighbor_configuration>-1 3 0 3 1 3</neighbor_configuration>
+    <parameter1>2</parameter1>
+    <parameter2>3</parameter2>
+    <initial-states-grid>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 2 2 2 2 1 1 1 2 2 2 1 1 1 2 2 2 2 2 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 2 2 1 2 2 2 2 1 2 1 2 2 2 2 1 2 2 2 0 0 2 2 1 2 2 2 2 1 2 1 2 2 2 2 1 2 2 2 0 0 2 2 1 2 2 2 2 1 2 1 2 2 2 2 1 2 2 2 0 0 2 2 2 2 1 1 1 2 2 2 1 1 1 2 2 2 2 2 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 2 2 2 2 1 1 1 2 2 2 1 1 1 2 2 2 2 2 0 0 2 2 1 2 2 2 2 1 2 1 2 2 2 2 1 2 2 2 0 0 2 2 1 2 2 2 2 1 2 1 2 2 2 2 1 2 2 2 0 0 2 2 1 2 2 2 2 1 2 1 2 2 2 2 1 2 2 2 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 2 2 2 2 1 1 1 2 2 2 1 1 1 2 2 2 2 2 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+    </initial-states-grid>>
+</simulation>

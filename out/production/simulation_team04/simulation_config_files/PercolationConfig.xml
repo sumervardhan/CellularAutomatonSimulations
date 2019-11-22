@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simulation simulationType = "Percolation">
+    <colors>
+        <empty>White</empty>
+        <full>Blue</full>
+        <blocked>Black</blocked>
+    </colors>
+
+    <num_rows>10</num_rows>
+    <num_columns>10</num_columns>
+    <num_neighbors>8</num_neighbors>
+
+    <neighbor_configuration> -1 0 2 0 -1 3 1 0 2</neighbor_configuration>
+
+    <initial_rectangular_grid>
+        1 1 1 1 1 1 1 1 1 1
+        2 2 0 2 0 0 0 2 2 2
+        0 0 0 0 0 0 0 0 0 0
+        2 2 2 2 2 0 2 2 2 2
+        0 0 0 0 0 0 0 0 0 0
+        2 2 2 2 2 2 2 0 0 0
+        0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0
+        0 0 0 0 0 0 0 0 0 0
+    </initial_rectangular_grid>
+
+</simulation>
